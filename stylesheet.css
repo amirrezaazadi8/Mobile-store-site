@@ -1,0 +1,224 @@
+@font-face {
+   font-family: 'ZahraRoosta';
+   src: url('ZahraRoosta.woff2') format('woff2'),
+      url('ZahraRoosta.woff') format('woff'),
+      url('ZahraRoosta.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+
+   font-family: 'B Nazanin';
+   src: url('BNazanin_2.woff2') format('woff2'),
+      url('BNazanin_2.woff') format('woff'),
+      url('BNazanin_2.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+
+   font-family: 'TitrZebr';
+   src: url('TitrZebr.woff2') format('woff2'),
+      url('TitrZebr.woff') format('woff'),
+      url('TitrZebr.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+
+}
+
+/* --------------------------------------------------------------- General Styles---------------------------------------------- */
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   direction: rtl;
+
+}
+
+div#main {
+   background-color: rgb(219, 230, 250);
+   width: 1000px;
+   height: 94%;
+   border: black 5px;
+   border-radius: 5px;
+   margin: 3% auto;
+   box-sizing: border-box;
+   box-shadow: rgb(147, 194, 196) 5px -5px 5px;
+   padding: 5px;
+   padding-top: 0;
+   position: absolute center;
+   direction: rtl;
+   text-align: justify;
+
+}
+
+.clear {
+   clear: both;
+}
+
+
+/* -------------------------------------------------------------- nav style----------------------------------------------------- */
+div#header {
+   background-color: rgb(183, 245, 224);
+   border: rgb(182, 250, 113) 3px solid;
+   border-radius: 5px;
+   width: 99.9%;
+
+}
+
+nav {
+   display: inline-block;
+   padding: 12px 5px;
+}
+
+section {
+   float: left;
+
+}
+
+li.nav-li {
+   display: inline-block;
+   border-left: rgb(250, 209, 134) 2px solid;
+   padding: 0px 5px;
+   transition: all 0.4 ease;
+}
+
+li.nav-li:last-child {
+   border-left: none;
+
+}
+
+li.nav-li:hover {
+   opacity: 0.3;
+   background-color: rgb(252, 252, 206);
+
+}
+
+a.nav-a {
+   text-decoration: none;
+   font-family: "B Nazanin";
+   color: rgb(15, 3, 15);
+   font-size: 20px;
+}
+
+
+img.nav-img {
+   width: 15px;
+   height: 15px;
+}
+
+img.logo-img {
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   border: rgb(153, 151, 151);
+   border-radius: 100px;
+   box-sizing: border-box;
+   box-shadow: rgb(138, 137, 137) 2px -2px 0px;
+   margin-right: 10px;
+   margin-top: 9px;
+   margin-left: 0;
+   float: left;
+   text-align: left;
+}
+
+img.logo-img:hover {
+   opacity: 0.7;
+   cursor: pointer;
+   border: black solid 5px;
+   background-color: rgb(248, 84, 84);
+}
+
+/* --------------------------------------------------slider style ------------------------------------------ */
+
+img.slider-img {
+   width: 75%;
+   height: 200px;
+   border: rgb(182, 250, 113) 3px solid;
+   border-radius: 5px;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-right: 12%;
+}
+
+/* -------------------------------------------------sidebar1------------------------------------------------ */
+
+section.sidebar-sec1 {
+   font-family: "B Nazanin";
+   float: right;
+   border: rgb(182, 250, 113) 3px solid;
+   border-radius: 5px;
+   background-color: rgb(183, 245, 224);
+   box-sizing: content-box;
+   width: 30%;
+   font-size: 15px;
+}
+
+button.sub-but {
+   font-family: "B Nazanin";
+   text-align: center;
+   margin: 3px 43% 3px;
+   font-size: 20px;
+   border: rgb(182, 250, 113) 3px solid;
+   border-radius: 5px;
+}
+
+button.sub-but:hover {
+   cursor: pointer;
+   opacity: 0.7;
+
+}
+
+/* ------------------------------------------------- content1 ------------------------------------------------ */
+
+div.content {
+   float: left;
+   width: 67%;
+   height: 246px;
+   background-color: rgb(183, 245, 224);
+   border: rgb(182, 250, 113) 3px solid;
+   border-radius: 5px;
+   box-sizing: border-box;
+   margin-left: 3px;
+   margin-bottom: 10px;
+   text-align: justify;
+}
+img.content-img{
+   width: 200px;
+   height: 200px;
+   border:rgb(182, 250, 113) 3px solid;
+   border-radius: 20px;
+   display: inline;
+   margin: 10px 7px;
+   float: right;
+}
+h2.content-h{
+font-family:"B Nazanin" ;
+font-size: 30px;
+margin: 5px 0;
+}
+p.content-p{
+   font-family:"B Nazanin";
+   font-size: 20px;
+   text-align: justify;
+}
+a.content-a{
+   border: rgb(167, 250, 84) 1px solid;
+   border-radius: 3px;
+   background-color: rgb(250, 239, 195);
+   cursor: pointer;
+   color: rgb(197, 61, 88);
+   font-family:"B Nazanin";
+   font-size: 20px;
+   text-align: justify;
+   box-sizing: border-box;
+   box-shadow: rgb(167, 250, 84) 2px -2px 2px;
+}
+
+footer.content-f{
+   display: block;
+   text-align: left;
+   margin-top: 20px;
+   margin-left: 2px;
+}
